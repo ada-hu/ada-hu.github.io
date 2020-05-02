@@ -1,4 +1,4 @@
-.home {
+.about {
     
     background-size: cover;
     height: 100%;
@@ -9,7 +9,7 @@
     flex-direction: row; */
   }
 
-  .home .box{
+  .about .box{
     font-family: 'Nanum Brush Script', cursive;
     font-size: 20px;
     position: relative;
@@ -24,10 +24,6 @@
     
   }
 
-  .home .hi{
-    font-size: 80px;
-    font-family: 'Patua One', cursive;
-    text-align:center;
-  }
+
 
   
