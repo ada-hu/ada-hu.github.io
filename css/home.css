@@ -2,9 +2,9 @@
 .home {
     
     background-size: cover;
-    height: 110%;
+    height: 100%;
     width: 100%;
-    color: black;
+    color: white;
     text-align: left;
     /* display: flex;
     flex-direction: row; */
@@ -12,8 +12,10 @@
 
   .home .box{
     position: relative;
+    object-fit: cover;
+    margin:0px;
     width: 550px;
-    height: 700px;
+    height:  100vh;
     padding: 0px;
     margin-left: 475px;
     /* background: url('../images/leaves.png'); */
