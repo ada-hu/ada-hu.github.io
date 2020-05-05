@@ -10,18 +10,31 @@
   }
 
   .about .box{
-    font-family: 'Nanum Brush Script', cursive;
+    font-family: 'Patua One', cursive;
     font-size: 20px;
     position: relative;
     width: 550px;
     height: 700px;
-    margin-left: 30%;
+    margin-left: 10%;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     
+  }
+
+  .about .myface{
+    position: relative;
+    height: 500px;
+    background: cover;
+    height: 600px;
+    margin-left: 825px;
+    margin-top: -650px;
+  }
+
+  .about .pageTitle{
+    text-align: center;
   }
 
 
