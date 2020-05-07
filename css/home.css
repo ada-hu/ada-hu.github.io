@@ -28,12 +28,14 @@ html {
     align-items: center;
     justify-content: center;
     
+    
   }
 
   .home .hi{
     font-size: 80px;
     font-family: 'Patua One', cursive;
     text-align:center;
+    opacity: .8;
   }
 
   
