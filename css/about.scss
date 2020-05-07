@@ -1,13 +1,19 @@
 .about {
     
     background-size: cover;
+    background-color: #282828;
     height: 100%;
     width: 100%;
-    color: black;
+    color: white;
+    padding:0px;
+    display:inline-block;
     
-    /* display: flex;
-    flex-direction: row; */
+    
+    
   }
+
+
+
 
   .about .box{
     font-family: 'Patua One', cursive;
