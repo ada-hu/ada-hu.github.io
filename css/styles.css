@@ -767,6 +767,25 @@ margin-right: 2vw;
   font-size: 2vh;
 }
 
+#contactbox {
+ 
+  width: 55vw;
+  height: 10vh;
+  background: rgba(255, 255, 255, 0.4);
+  margin: auto;
+  text-align: center;
+  margin-top: 10vh;
+  border-radius: 13px;
+  padding-top: 3vh;
+}
+#contacttext {
+  margin: auto;
+  font-family: Patua One;
+  font-style: normal;
+  font-weight: normal;
+  
+}
+
 
 .no-gutters {
   margin-right: 0;
