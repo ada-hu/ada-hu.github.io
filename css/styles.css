@@ -82,6 +82,7 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-family: Patua One;
 }
 
 p {
@@ -361,6 +362,7 @@ template {
   font-family: Patua One;
   font-style: normal;
   font-weight: normal;
+  
  
   
 }
@@ -535,6 +537,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
+  padding: 2vh;
   height: auto;
 }
 
@@ -662,6 +665,108 @@ pre code {
   margin-right: -100px;
   margin-left: -100px;
 }
+
+.proj {
+  font-size: 400% !important;
+  font-weight: 300 !important;
+
+  
+
+  text-align: center;
+}
+
+.projbox {
+  align-items: center !important;
+  width: 28vw;
+  height: 80vh;
+  background: rgba(255, 255, 255, 0.4);
+  margin: 1%;
+  border-radius: 13px;
+
+  
+
+}
+
+
+.projcontainer {
+  
+  width: 100%;
+  align-items: center;
+  /* padding-right: -15px;
+  padding-left: 15px; */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.projtitle {
+  font-size: 3vw;
+  padding-top: 4vh;
+  font-weight: 2000;
+}
+
+.projrow {
+  display: flex;
+  font-size: 400% !important;
+  font-weight: 300 !important;
+  padding-top: 2%;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 6vw;
+  
+}
+
+.projsmolrow {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+  padding-left:  2vh;
+  
+}
+
+.projsmolbox{
+  align-items: center !important;
+  width: 6vw;
+  height: 4vh;
+  background: #DEB0D5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  margin-right: 1vh;
+  text-align: center;
+  font-family: Patua One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vh;
+
+
+
+}
+
+.projsmoltext {
+  
+  margin-top: 3%;
+}
+
+hr{
+border: 2px solid #DFB3D5;
+margin-left: 2vh;
+margin-right: 2vw;
+}
+
+.projdesctxt {
+  font-family: Poppins;
+  font-style: normal;
+  text-align: left;
+  padding: 1vh;
+  padding-left: 2vh;
+  font-size: 2vh;
+}
+
 
 .no-gutters {
   margin-right: 0;
@@ -4037,7 +4142,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #f4623a;
+  background-color: #7d0bff;
 }
 
 .nav-fill .nav-item {
@@ -9871,6 +9976,10 @@ button.bg-dark:focus {
   
 }
 
+.contact {
+  padding-bottom: 10%;
+}
+
 .font-weight-lighter {
   font-weight: lighter !important;
 }
@@ -10181,16 +10290,20 @@ hr.light {
     background-color: #fff;
   }
   #mainNav.navbar-scrolled .navbar-brand {
-    color: #212529;
+    /* The color of ADAHU when not hovered */
+    color: #000000;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #f4623a;
+    /* THIS CHANGES THE ADAHU top */
+    color: #da73c3;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-    color: #212529;
+    /* color of other tabs when not hovered */
+    color: #000000;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    /* color of other tabs when hovered */
+    color: #5da8e6;
   }
 }
 
@@ -10225,6 +10338,7 @@ header.masthead h1 {
     font-size: 3.5rem;
   }
 }
+
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
   max-width: 1920px;
