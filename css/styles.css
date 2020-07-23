@@ -160,12 +160,12 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: black;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #d6370c;
+  
   text-decoration: underline;
 }
 
@@ -538,8 +538,11 @@ mark,
 .img-fluid {
   max-width: 100%;
   padding: 2vh;
-  height: auto;
+  height: 30vh;
+  
 }
+
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -745,6 +748,10 @@ pre code {
 
 
 
+}
+
+.projsmolbox:hover {
+  background: rgb(228, 125, 207);
 }
 
 .projsmoltext {
@@ -10395,3 +10402,27 @@ header.masthead h1 {
   opacity: 1;
 }
 
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+} */
